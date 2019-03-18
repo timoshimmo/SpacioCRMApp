@@ -1,0 +1,37 @@
+ [
+	  {
+		  "SALES_FIRST_NAME" : "Peter",
+		  "SALES_LAST_NAME" : "Lamba",
+		  "SALES_EMAIL" : "peterlamba@gmail.com",
+		  "SALES_MOBILE" : "08057527307"
+	  },
+
+	  {
+		  "SALES_FIRST_NAME" : "Mary",
+		  "SALES_LAST_NAME" : "Panshak",
+		  "SALES_EMAIL" : "panshakmary@gmail.com",
+		  "SALES_MOBILE" : "08057527307"
+	  },
+
+	 {
+		 "SALES_FIRST_NAME" : "Chukwudi",
+		 "SALES_LAST_NAME" : "Onu",
+		 "SALES_EMAIL" : "chukwuonu@gmail.com",
+		 "SALES_MOBILE" : "08057527307"
+	 },
+
+	 {
+		 "SALES_FIRST_NAME" : "Gbenga",
+		 "SALES_LAST_NAME" : "Daniels",
+		 "SALES_EMAIL" : "gbenga1990@gmail.com",
+		 "SALES_MOBILE" : "08057527307"
+	 },
+
+	 {
+		 "SALES_FIRST_NAME" : "Ursula",
+		 "SALES_LAST_NAME" : "Michaels",
+		 "SALES_EMAIL" : "micahealsursula@gmail.com",
+		 "SALES_MOBILE" : "08057527307"
+	 }
+
+ ]

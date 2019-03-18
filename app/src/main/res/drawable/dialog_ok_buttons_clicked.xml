@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:padding="25dp">
+    <solid android:color="@color/customSuperLightBlueTheme" />
+
+    <corners
+        android:bottomRightRadius="@dimen/button_curve_radius"
+        android:bottomLeftRadius="@dimen/button_curve_radius"
+        android:topLeftRadius="@dimen/button_curve_radius"
+        android:topRightRadius="@dimen/button_curve_radius"/>
+
+</shape>

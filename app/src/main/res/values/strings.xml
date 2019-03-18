@@ -1,0 +1,207 @@
+<resources>
+    <!-- Strings related to launch -->
+    <string name="app_name">SpacioCRM</string>
+    <string name="string_get_started">GET STARTED</string>
+    <string name="spacio_launch_title">SpacioCRM</string>
+    <string name="spacio_launch_description">Simplifying the relationship between customers and organization.</string>
+    <string name="contact_launch_title">Contacts</string>
+    <string name="contact_launch_description">Create contacts details, create contact appointments and attach contacts to products.</string>
+    <string name="event_launch_title">Appointments</string>
+    <string name="event_launch_description">Create appointments with customers and view appointment details.</string>
+    <string name="product_launch_title">Products</string>
+    <string name="product_launch_description">Add products to contacts, view contacts attached to products.</string>
+    <string name="referral_launch_title">Referrals</string>
+    <string name="referral_launch_description">Make referrals, Accept or reject incoming referrals and recall outgoing referrals.</string>
+    <string name="performance_launch_title">Performance Graph</string>
+    <string name="performance_launch_description">View graph on weekly, monthly, quarterly and yearly performances.</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_uname">This username is invalid. Must be at least 6 characters.</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_username">Username</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_performance">Performance Graph</string>
+    <string name="nav_contacts_string">Contacts</string>
+    <string name="nav_appointments">Events</string>
+    <string name="nav_products_string">Products</string>
+    <string name="nav_referrals_string">Referrals</string>
+    <string name="nav_menu_string">Menu</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_profile_string">Profile</string>
+    <string name="nav_pgraph_string">Performance Graph</string>
+    <string name="nav_preferences_string">Preferences</string>
+    <string name="nav_help_string">Help</string>
+    <string name="nav_about_string">About</string>
+    <string name="nav_logout_string">Logout</string>
+    <string name="img_profile_desc">Profile image description</string>
+    <string name="img_funnel_desc">Image funnel for toolbar search</string>
+    <string name="string_search">Search</string>
+    <string name="img_back_desc">Button Back Image description</string>
+    <string name="btn_cancel_description">Image description of search box button cancel</string>
+    <string name="str_incoming_referrals">Incoming</string>
+    <string name="str_outgoing_referrals">Outgoing</string>
+    <string name="outgoing_referral_not_found_title">No outgoing referrals found</string>
+    <string name="not_found_outgoing_message">No outgoing referral is currently available in our records. Immediately one is available, it will be displayed on this page.</string>
+    <string name="img_outgoing_desc">The image for outgoing referrals not found</string>
+    <string name="incoming_referral_not_found_title">No incoming referrals found</string>
+    <string name="not_found_incoming_message">No incoming referral is currently available in our records. Immediately one is available, it will be displayed on this page.</string>
+    <string name="img_incoming_desc">Image for incoming referrals not found</string>
+    <string name="search_hint">Search</string>
+    <string name="title_activity_contact_details">Contact</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="lead_string">Lead</string>
+    <string name="prospect_string">Prospect</string>
+    <string name="open_string">Open</string>
+    <string name="closed_string">Closed</string>
+    <string name="details_string">Details</string>
+    <string name="str_first_name">First Name</string>
+    <string name="str_last_name">Last Name</string>
+    <string name="btn_edit_desc">Edit button to edit contact details</string>
+    <string name="btn_question_open_close_desc">Button to pop up explanation of open and close radio button selections</string>
+    <string name="str_contact_type">Contact Type</string>
+    <string name="str_email">Email</string>
+    <string name="str_company_name">Company</string>
+    <string name="str_mobile">Mobile</string>
+    <string name="str_home_address">Home Address</string>
+    <string name="str_office_address">Office Address</string>
+    <string name="str_street">Street</string>
+    <string name="strCity">City</string>
+    <string name="str_state">State</string>
+    <string name="str_country">Country</string>
+    <string name="str_landmark_title">Nearest Landmark</string>
+    <string name="str_btn_update">Update</string>
+    <string name="str_customer">Customer</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_ok">Ok</string>
+    <string name="str_fullname">Fullname</string>
+    <string name="btn_call_desc">Button to call contacts</string>
+    <string name="btn_msg_desc">Button to message contacts</string>
+    <string name="btn_locate_contact_desc">Button to show the selected contacts location</string>
+    <string name="txt_country_dialog_title">Select Country</string>
+    <string name="txt_list_test">test</string>
+    <string name="txt_state_dilaog_title">Select States</string>
+    <string name="time_left_string">2 days left</string>
+    <string name="img_stop_watch_desc">Stop watch imaes in appointment to show days left to day of appointment</string>
+    <string name="appointment_title">Appointment</string>
+    <string name="str_date">Date</string>
+    <string name="str_time">Time</string>
+    <string name="str_agenda">Agenda</string>
+    <string name="str_outcome">Outcome/Result</string>
+    <string name="dialog_cancel_button">Button to close appointment details dialog fragment</string>
+    <string name="str_select_date">Select Date</string>
+    <string name="str_select_time">Select Time</string>
+    <string name="str_select_contact">Select Contact</string>
+    <string name="str_add_new_event">Add New Event</string>
+    <string name="str_event_title">Event Title</string>
+    <string name="str_contact_name">Contact Name</string>
+    <string name="right_arrow_desc">Description for image of right arrow</string>
+    <string name="str_apt_date">Date of Appointment</string>
+    <string name="str_time_appointment">Time of Appointment</string>
+    <string name="str_agenda_appointment">Agenda of Appointment</string>
+    <string name="str_outcome_result">Outcome/Result of Meeting</string>
+    <string name="str_company_name_full">Company Name</string>
+    <string name="str_mobile_number">Mobile No.</string>
+    <string name="str_nearest_landmmark">Nearest Landmark</string>
+    <string name="str_new_contact">New Contact</string>
+    <string name="str_title">Title</string>
+    <string name="str_filter">Filter</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="str_select_action">Select Action</string>
+    <string name="str_add_new_contact">Add New Contact</string>
+    <string name="str_existing_contact">Existing Contact</string>
+    <string name="title_activity_test_login">Sign in</string>
+    <string name="str_search_contacts">Search Contacts</string>
+    <string name="str_search_by_filter">Search By Filter</string>
+    <string name="str_new_product_title">Add New Product</string>
+    <string name="str_product_title">Product Title</string>
+    <string name="str_product_desc">Product Description</string>
+    <string name="str_email_address">Email Address</string>
+    <string name="str_save">Save</string>
+    <string name="btn_close_new_apt_desc">Button toclose dialog of creating new appointment</string>
+    <string name="str_product_to_contact_title">Add product to contact</string>
+    <string name="str_select_product">Select product</string>
+    <string name="str_make_referral">Make Referral</string>
+    <string name="str_referral_msg">Referral Message</string>
+    <string name="str_select_salespserson">Select Sales Person</string>
+    <string name="str_salesperson">Salesperson</string>
+    <string name="str_refer">Refer</string>
+    <string name="str_accept">Accept</string>
+    <string name="str_reject">Reject</string>
+    <string name="str_recall">Recall</string>
+    <string name="str_preferences">Preferences</string>
+    <string name="str_webservice_url">Web services url</string>
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_day_before_reminder">Days before task</string>
+    <string name="str_send_reminder">Send reminder to me?</string>
+    <string name="str_SMS">SMS</string>
+    <string name="str_calendar">Calendar</string>
+    <string name="str_enable_call_monitoring">Enable call monitoring?</string>
+    <string name="str_profile">Profile</string>
+    <string name="str_DOB">DOB</string>
+    <string name="str_gender">Gender</string>
+    <string name="str_send_reminder_contact">Send reminder to contact?</string>
+    <string name="str_faq">FAQ</string>
+    <string name="str_contact_us">Contact Us</string>
+    <string name="str_terms_policy">Terms and Privacy Policy</string>
+    <string name="str_app_info">About App</string>
+    <string name="str_select_contact_type">Select Type</string>
+    <string name="str_select_gender">Select Gender</string>
+    <string name="str_old_password">Old Password</string>
+    <string name="str_newpassword">New Password</string>
+    <string name="str_confirm_password">Confirm Password</string>
+    <string name="str_change_password">Change Password</string>
+    <string name="contact_type_desc_title">Contact Type Description</string>
+    <string name="str_lead_button_desc">The red circle indicates that a contact is a lead</string>
+    <string name="str_prospect_button_desc">The yellow circle indicates that a contact is a prospect</string>
+    <string name="str_customer_button_desc">The green circle indicates that a contact is a customer</string>
+
+    <string-array name="days_before_task">
+        <item>1 day before</item>
+        <item>2 days before</item>
+        <item>3 days before</item>
+        <item>4 days before</item>
+        <item>5 days before</item>
+    </string-array>
+
+    <string-array name="contact_type_list">
+        <item>Lead</item>
+        <item>Prospect</item>
+        <item>Customer</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="str_letter">T</string>
+    <string name="str_contact_details">Contact Details</string>
+    <string name="str_call_history">Call History</string>
+    <string name="str_contact_location">Address</string>
+    <string name="img_call_history">Image for call history</string>
+    <string name="img_contact_location_desc">Image for location of contact address</string>
+    <string name="str_call_log">Call History</string>
+
+    <string name="contact_fullname">%1$s %2$s</string>
+    <string name="call_duration">%1$s Seconds</string>
+
+</resources>

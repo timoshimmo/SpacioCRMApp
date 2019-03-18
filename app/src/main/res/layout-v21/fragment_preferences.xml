@@ -1,0 +1,185 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.spaciocrm.home.fragments.FragmentPreferences">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/FragTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tbPreferences"
+        app:title="@string/str_preferences"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/preferences_container"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin"
+        android:paddingEnd="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/contact_details_container_top_margin"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tbPreferences">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_login_height"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtUsername"
+            android:layout_marginBottom="@dimen/contacts_name_top_margin"
+            android:background="@drawable/custom_edit_text_border"
+            android:paddingLeft="@dimen/rb_margin_right"
+            android:paddingEnd="@dimen/rb_margin_right"
+            android:paddingRight="@dimen/rb_margin_right"
+            android:paddingStart="@dimen/rb_margin_right"
+            android:textColor="@color/custom_dark_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="@string/str_username"
+            android:textSize="@dimen/dialog_title_text_size" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_login_height"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtPassword"
+            android:layout_marginBottom="@dimen/contacts_name_top_margin"
+            android:background="@drawable/custom_edit_text_border"
+            android:paddingEnd="@dimen/rb_margin_right"
+            android:paddingRight="@dimen/rb_margin_right"
+            android:paddingLeft="@dimen/rb_margin_right"
+            android:paddingStart="@dimen/rb_margin_right"
+            android:textColor="@color/custom_dark_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="@string/str_password"
+            android:textSize="@dimen/dialog_title_text_size" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_login_height"
+            android:ems="10"
+            android:id="@+id/txtWebservicesUrl"
+            android:background="@drawable/custom_edit_text_border"
+            android:paddingLeft="@dimen/rb_margin_right"
+            android:paddingRight="@dimen/rb_margin_right"
+            android:paddingStart="@dimen/rb_margin_right"
+            android:paddingEnd="@dimen/rb_margin_right"
+            android:textColor="@color/custom_dark_gray"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="@string/str_webservice_url"
+            android:textSize="@dimen/dialog_title_text_size"
+            android:layout_marginBottom="@dimen/page_indicator_margin_bottom"
+            android:inputType="textUri" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/page_indicator_margin_bottom">
+
+            <TextView
+                android:text="@string/str_send_reminder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSendReminderString"
+                android:layout_weight="0.35"
+                android:textColor="@color/custom_dark_gray"
+                android:textSize="@dimen/search_text_size" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:gravity="end">
+
+                <CheckBox
+                    android:text="@string/str_SMS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbSms"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/custom_dark_gray"
+                    android:layout_marginEnd="@dimen/rb_space_margin_right"
+                    android:textSize="@dimen/search_text_size" />
+
+                <CheckBox
+                    android:text="@string/str_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbEmail"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/custom_dark_gray"
+                    android:layout_toEndOf="@+id/cbSms"
+                    android:textSize="@dimen/search_text_size" />
+
+                <CheckBox
+                    android:text="@string/str_calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbCalendar"
+                    android:layout_below="@+id/cbSms"
+                    android:textColor="@color/custom_dark_gray"
+                    android:textSize="@dimen/search_text_size" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_login_height"
+            android:id="@+id/spnDayBefore"
+            android:prompt="@string/str_day_before_reminder"
+            android:layout_marginBottom="@dimen/btn_floating_margin_bottom"
+            android:entries="@array/days_before_task"
+            app:ms_hint="@string/str_day_before_reminder"
+            app:ms_enableFloatingLabel="false"
+            app:ms_enableErrorLabel="false"
+            app:ms_floatingLabelText="@string/str_day_before_reminder"
+            app:ms_baseColor="@color/customSuperLightBlueTheme"
+            app:ms_highlightColor="@android:color/darker_gray"
+            app:ms_errorColor="@color/custom_mid_red"
+            app:ms_thickness="1dp"
+            app:ms_hintColor="@android:color/darker_gray"
+            app:ms_arrowColor="@color/custom_dark_gray"
+            app:ms_arrowSize="16dp"
+            app:ms_alignLabels="false"
+            app:ms_floatingLabelColor="@color/customSuperLightBlueTheme"/>
+
+        <CheckBox
+            android:text="@string/str_enable_call_monitoring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbEnableCallMonitoring"
+            android:textColor="@color/custom_dark_gray"
+            android:layout_marginBottom="@dimen/page_indicator_margin_bottom"
+            android:textSize="@dimen/search_text_size" />
+
+        <Button
+            android:text="@string/str_save"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_login_height"
+            android:id="@+id/btnSavePreferences"
+            android:textAllCaps="false"
+            android:textSize="@dimen/btn_get_started_text_size"
+            android:background="@drawable/button_corners"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

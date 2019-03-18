@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contacts_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/btn_floating_margin_bottom"
+    android:clickable="false"
+    android:orientation="vertical"
+    android:padding="10dp">  -->
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/btn_floating_margin_bottom"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/button_curve_radius"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/contactTopView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingBottom="@dimen/contacts_row_padding_top"
+            android:paddingLeft="@dimen/btn_floating_margin_end"
+            android:paddingRight="@dimen/btn_floating_margin_end"
+            android:paddingTop="@dimen/contacts_row_padding_top">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/customer_type_indicator"
+                android:layout_width="@dimen/customer_indicator_size"
+                android:layout_height="@dimen/customer_indicator_size"
+                android:background="@drawable/red_oval_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/contact_indicator_letter_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_letter"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/txt_contacts_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/contact_details_layout"
+                android:layout_width="@dimen/contact_name_details"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_floating_margin_end"
+                android:layout_marginStart="@dimen/btn_floating_margin_end"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/customer_type_indicator"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/txtContactName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="@string/str_fullname"
+                    android:textColor="@color/custom_dark_gray"
+                    android:textSize="@dimen/txt_contacts_text_size" />
+
+                <TextView
+                    android:id="@+id/txtMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="@string/str_mobile"
+                    android:textColor="@color/custom_blue_theme_gray"
+                    android:textSize="@dimen/btn_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contact_action_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/btnMessageContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="@string/btn_msg_desc"
+                    app:srcCompat="@drawable/ic_sms_contact" />
+
+                <Space
+                    android:layout_width="@dimen/contact_comm_buttons_space"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnPhoneContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="@string/btn_call_desc"
+                    app:srcCompat="@drawable/ic_make_call" />
+
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/more_contact_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/contact_info_divider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_height"
+                android:background="@color/custom_mid_light_gray" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/btnContactDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_clickable_no_border"
+                android:paddingBottom="@dimen/btn_floating_margin_end"
+                android:paddingLeft="@dimen/btn_floating_margin_end"
+                android:paddingRight="@dimen/btn_floating_margin_end"
+                android:paddingTop="@dimen/btn_floating_margin_end">
+
+                <ImageView
+                    android:id="@+id/imgContactInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/btn_locate_contact_desc"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/ic_information_circular_button_symbol" />
+
+                <TextView
+                    android:id="@+id/txtContactInfoTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/contact_list_details_title_margin_left"
+                    android:layout_marginStart="@dimen/contact_list_details_title_margin_left"
+                    android:text="@string/str_contact_details"
+                    android:textColor="@color/custom_blue_theme_gray"
+                    android:textSize="@dimen/txt_contacts_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imgContactInfo"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/btnCallHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_clickable_no_border"
+                android:paddingBottom="@dimen/btn_floating_margin_end"
+                android:paddingLeft="@dimen/btn_floating_margin_end"
+                android:paddingRight="@dimen/btn_floating_margin_end"
+                android:paddingTop="@dimen/btn_floating_margin_end">
+
+                <ImageView
+                    android:id="@+id/imgCallHistory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_call_history"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/ic_call_history" />
+
+                <TextView
+                    android:id="@+id/txtCallHistoryTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/contact_list_details_title_margin_left"
+                    android:layout_marginStart="@dimen/contact_list_details_title_margin_left"
+                    android:text="@string/str_call_history"
+                    android:textColor="@color/custom_blue_theme_gray"
+                    android:textSize="@dimen/txt_contacts_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imgCallHistory"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/btnContactLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_clickable_no_border"
+                android:paddingBottom="@dimen/btn_floating_margin_end"
+                android:paddingLeft="@dimen/btn_floating_margin_end"
+                android:paddingRight="@dimen/btn_floating_margin_end"
+                android:paddingTop="@dimen/btn_floating_margin_end">
+
+                <ImageView
+                    android:id="@+id/imgLocateContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_contact_location_desc"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/ic_maps_and_flags" />
+
+                <TextView
+                    android:id="@+id/txtContactLocationTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/contact_list_details_title_margin_left"
+                    android:layout_marginStart="@dimen/contact_list_details_title_margin_left"
+                    android:text="@string/str_contact_location"
+                    android:textColor="@color/custom_blue_theme_gray"
+                    android:textSize="@dimen/txt_contacts_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imgLocateContact"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/btnWhatsApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_clickable_no_border"
+                android:paddingBottom="@dimen/btn_floating_margin_end"
+                android:paddingLeft="@dimen/btn_floating_margin_end"
+                android:paddingRight="@dimen/btn_floating_margin_end"
+                android:paddingTop="@dimen/btn_floating_margin_end"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgWhatsApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_contact_location_desc"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/ic_whatsapp" />
+
+                <TextView
+                    android:id="@+id/txtWhatsAppTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/contact_list_details_title_margin_left"
+                    android:layout_marginStart="@dimen/contact_list_details_title_margin_left"
+                    android:text="@string/str_contact_location"
+                    android:textColor="@color/custom_blue_theme_gray"
+                    android:textSize="@dimen/txt_contacts_text_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imgWhatsApp"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+<!--</LinearLayout> -->

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_very_light_gray"
+    tools:context="com.android.spaciocrm.home.fragments.FragContacts">
+
+    <ProgressBar
+        android:id="@+id/multiple_location_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbContacts"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:contentInsetStart="@dimen/search_ttolbar_padding_left_right"
+        app:titleMargin="@dimen/zero_dp"
+        app:titleTextColor="@android:color/white">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvContacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tbContacts"
+        android:paddingLeft="@dimen/btn_floating_margin_end"
+        android:paddingRight="@dimen/btn_floating_margin_end"
+        android:paddingTop="@dimen/btn_floating_margin_bottom"
+        android:paddingBottom="@dimen/btn_floating_margin_bottom" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnFloatingAllMarkersMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnFloatingAddContact"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/btn_floating_map_margin_bottom"
+        android:layout_marginEnd="@dimen/btn_floating_margin_end"
+        android:layout_marginRight="@dimen/btn_floating_margin_end"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_map_location" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnFloatingAddContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/btn_floating_margin_bottom"
+        android:layout_marginEnd="@dimen/btn_floating_margin_end"
+        android:layout_marginRight="@dimen/btn_floating_margin_end"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_add_contact" />
+
+
+</RelativeLayout>

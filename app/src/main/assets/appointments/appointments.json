@@ -1,0 +1,164 @@
+ [
+	  {
+		  "EVENTS_TITLE" : "Meeting on Sales",
+		  "CONTACT_NAME" : "Tunde Aramide",
+		  "DATE_OF_APPOINTMENT" : "25/01/2018",
+		  "TIME_OF_APPOINTMENT" : "10:00",
+		  "AGENDA_OF_APPOINTMENT" : "Discuss damages that may be incurred during sales processes.",
+		  "OUTCOME_OF_MEETING" : "Reached agreement on compensation.",
+		  "APPOINTMENT_ADDRESS" : "2 Ichie Kris Onyekwuje Street",
+		  "APPOINTMENT_CITY" : "Lekki Phase I",
+		  "APPOINTMENT_STATE" : "Lagos",
+		  "APPOINTMENT_COUNTRY" : "Nigeria",
+		  "SEND_REMINDER_BY" : "SMS"
+	  },
+	  {
+		  "EVENTS_TITLE" : "Health Insurance",
+		  "CONTACT_NAME" : "Terna Idoko",
+		  "DATE_OF_APPOINTMENT" : "25/01/2018",
+		  "TIME_OF_APPOINTMENT" : "14:00",
+		  "AGENDA_OF_APPOINTMENT" : "Setting up health insurance for workers.",
+		  "OUTCOME_OF_MEETING" : "Setting up a date to start insuring workers.",
+		  "APPOINTMENT_ADDRESS" : "Jabi Lake Mall, Bala Sokoto Way",
+		  "APPOINTMENT_CITY" : "Jabi",
+		  "APPOINTMENT_STATE" : "Abuja",
+		  "APPOINTMENT_COUNTRY" : "Nigeria",
+		  "SEND_REMINDER_BY" : "Email"
+	  },
+	 {
+		 "EVENTS_TITLE" : "Renew Health Insurance",
+		 "CONTACT_NAME" : "Tony Fernandez",
+		 "DATE_OF_APPOINTMENT" : "23/01/2018",
+		 "TIME_OF_APPOINTMENT" : "11:00",
+		 "AGENDA_OF_APPOINTMENT" : "Renew health insurance for family",
+		 "OUTCOME_OF_MEETING" : "Set date to meet the family to discuss importance",
+		 "APPOINTMENT_ADDRESS" : "18481 Trans-Amadi Industrial Layout Road, Trans Amadi",
+		 "APPOINTMENT_CITY" : "Port Harcourt",
+		 "APPOINTMENT_STATE" : "Rivers",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "Email"
+	 },
+	 {
+		 "EVENTS_TITLE" : "Present Insurance to Partners",
+		 "CONTACT_NAME" : "Sarah Coker",
+		 "DATE_OF_APPOINTMENT" : "22/01/2018",
+		 "TIME_OF_APPOINTMENT" : "10:00",
+		 "AGENDA_OF_APPOINTMENT" : "To present insurance coverage for properties to partners.",
+		 "OUTCOME_OF_MEETING" : "Partner agreement of insuring all properties.",
+		 "APPOINTMENT_ADDRESS" : "Julius Berger Corporate Headquarters",
+		 "APPOINTMENT_CITY" : "Utako",
+		 "APPOINTMENT_STATE" : "Abuja",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "Email"
+	 },
+	 {
+		 "EVENTS_TITLE" : "Meet Prospective Customer",
+		 "CONTACT_NAME" : "Wilberforce Itta",
+		 "DATE_OF_APPOINTMENT" : "20/01/2018",
+		 "TIME_OF_APPOINTMENT" : "13:00",
+		 "AGENDA_OF_APPOINTMENT" : "Keep track of customer",
+		 "OUTCOME_OF_MEETING" : "Increased interest of customer",
+		 "APPOINTMENT_ADDRESS" : "21-22 Mobolaji Bank Anthony Way, Opebi",
+		 "APPOINTMENT_CITY" : "Ikeja",
+		 "APPOINTMENT_STATE" : "Lagos",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "Email"
+	 },
+	 {
+		 "EVENTS_TITLE" : "Inspect Insurance claim",
+		 "CONTACT_NAME" : "Ayoola Adebanjo",
+		 "DATE_OF_APPOINTMENT" : "19/01/2018",
+		 "TIME_OF_APPOINTMENT" : "09:00",
+		 "AGENDA_OF_APPOINTMENT" : "To work out insurance claim with customer.",
+		 "OUTCOME_OF_MEETING" : "Agreed on the amount to pay for claim.",
+		 "APPOINTMENT_ADDRESS" : "5 Otigba Street, Ikeja 100200",
+		 "APPOINTMENT_CITY" : "Ikeja",
+		 "APPOINTMENT_STATE" : "Lagos",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "Email"
+	 },
+	 {
+		 "EVENTS_TITLE" : "Meeting with Mr Dos Santos",
+		 "CONTACT_NAME" : "Angelo Dos Santos",
+		 "DATE_OF_APPOINTMENT" : "17/01/2018",
+		 "TIME_OF_APPOINTMENT" : "10:00",
+		 "AGENDA_OF_APPOINTMENT" : "Keeping track with customer.",
+		 "OUTCOME_OF_MEETING" : "Increased customer confidence.",
+		 "APPOINTMENT_ADDRESS" : "Church Gate Tower",
+		 "APPOINTMENT_CITY" : "Victoria Island",
+		 "APPOINTMENT_STATE" : "Lagos",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "SMS|Email"
+	 },
+
+	 {
+		 "EVENTS_TITLE" : "Update Mrs Abdul on Health Cover",
+		 "CONTACT_NAME" : "Hauwa Abdul",
+		 "DATE_OF_APPOINTMENT" : "17/01/2018",
+		 "TIME_OF_APPOINTMENT" : "14:30",
+		 "AGENDA_OF_APPOINTMENT" : "Update on the total cost of health cover for employees.",
+		 "OUTCOME_OF_MEETING" : "Set up another meeting fro more discussions.",
+		 "APPOINTMENT_ADDRESS" : "30, Onitsha Crescent off Gimbiya Street, Area 11",
+		 "APPOINTMENT_CITY" : "Garki",
+		 "APPOINTMENT_STATE" : "Abuja",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "SMS"
+	 },
+
+	 {
+		 "EVENTS_TITLE" : "Meeting on Sales Department",
+		 "CONTACT_NAME" : "Chika Okon",
+		 "DATE_OF_APPOINTMENT" : "17/01/2018",
+		 "TIME_OF_APPOINTMENT" : "09:00",
+		 "AGENDA_OF_APPOINTMENT" : "Discuss pensions for all sales workers.",
+		 "OUTCOME_OF_MEETING" : "Document the amount and pay of sales workers.",
+		 "APPOINTMENT_ADDRESS" : "Westminster Market Ibafon",
+		 "APPOINTMENT_CITY" : "Apapa",
+		 "APPOINTMENT_STATE" : "Lagos",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "SMS"
+	 },
+
+	 {
+		 "EVENTS_TITLE" : "Pensions For Workers",
+		 "CONTACT_NAME" : "Susan Oji",
+		 "DATE_OF_APPOINTMENT" : "15/01/2018",
+		 "TIME_OF_APPOINTMENT" : "12:00",
+		 "AGENDA_OF_APPOINTMENT" : "Discuss the importance of pensions for workers",
+		 "OUTCOME_OF_MEETING" : "Agreed to setup pensions for all workers.",
+		 "APPOINTMENT_ADDRESS" : "Big Qua Road, Oqua St, Big Qua Town",
+		 "APPOINTMENT_CITY" : "Calabar",
+		 "APPOINTMENT_STATE" : "Cross River",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "Email"
+	 },
+
+	 {
+		 "EVENTS_TITLE" : "Property Insurance",
+		 "CONTACT_NAME" : "Sarah Coker",
+		 "DATE_OF_APPOINTMENT" : "12/01/2018",
+		 "TIME_OF_APPOINTMENT" : "10:00",
+		 "AGENDA_OF_APPOINTMENT" : "To evaluate property cost required for insurance.",
+		 "OUTCOME_OF_MEETING" : "Invite the partners for next meeting.",
+		 "APPOINTMENT_ADDRESS" : "Julius Berger Corporate Headquarters",
+		 "APPOINTMENT_CITY" : "Utako",
+		 "APPOINTMENT_STATE" : "Abuja",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "SMS|Email"
+	 },
+
+	 {
+		 "EVENTS_TITLE" : "Meet New Lead",
+		 "CONTACT_NAME" : "Tunde Aramide",
+		 "DATE_OF_APPOINTMENT" : "10/01/2018",
+		 "TIME_OF_APPOINTMENT" : "12:30",
+		 "AGENDA_OF_APPOINTMENT" : "Getting to acquaint ourselves with each other",
+		 "OUTCOME_OF_MEETING" : "Became a lead and potential prospect.",
+		 "APPOINTMENT_ADDRESS" : "2 Ichie Kris Onyekwuje Street",
+		 "APPOINTMENT_CITY" : "Lekki Phase I",
+		 "APPOINTMENT_STATE" : "Lagos",
+		 "APPOINTMENT_COUNTRY" : "Nigeria",
+		 "SEND_REMINDER_BY" : "SMS"
+	 }
+
+ ]

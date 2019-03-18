@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/rd_grp_height"
+    android:id="@+id/ctry_list_row"
+    android:paddingEnd="@dimen/rb_margin_right"
+    android:paddingLeft="@dimen/rb_margin_right"
+    android:paddingRight="@dimen/rb_margin_right"
+    android:paddingStart="@dimen/rb_margin_right"
+    android:background="@drawable/clickable_top_bottom_border">
+
+    <RadioButton
+        android:text="@string/txt_list_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rbCtryName"
+        android:textSize="@dimen/dialog_title_text_size"
+        android:button="@null"
+        android:drawableRight="@drawable/radio_button_style"
+        android:drawableEnd="@drawable/radio_button_style" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.spaciocrm.home.fragments.FragReferrals">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tabReferrals"
+        app:tabTextColor="@color/customVeryLightBlueTheme"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabIndicatorColor="@android:color/white"
+        android:layout_height="@dimen/referral_tab_height"
+        app:tabBackground="@color/colorPrimary">
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_incoming_referrals"
+            android:id="@+id/tabIncoming" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_outgoing_referrals"
+            android:id="@+id/tabOutgoing" />
+    </android.support.design.widget.TabLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/customSuperLightBlueTheme"
+        android:id="@+id/title_underline"
+        android:layout_below="@+id/tabReferrals" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/referral_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@+id/tabReferrals" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_add_referral"
+        android:id="@+id/btnFloatingAddReferrals"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/btn_floating_margin_bottom"
+        android:layout_marginEnd="@dimen/btn_floating_margin_end"
+        android:layout_marginRight="@dimen/btn_floating_margin_end" />
+</RelativeLayout>

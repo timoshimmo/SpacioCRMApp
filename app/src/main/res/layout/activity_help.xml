@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.spaciocrm.home.activity.help.HelpActivity"
+    android:orientation="vertical"
+    android:background="@color/custom_mid_light_gray">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/referral_tab_height"
+        android:id="@+id/btnFaq"
+        android:background="@drawable/help_row_background"
+        android:textColor="@color/custom_dark_gray"
+        android:textSize="@dimen/row_text_size"
+        android:text="@string/str_faq"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/help_row_padding_left_right"
+        android:paddingStart="@dimen/help_row_padding_left_right"
+        android:paddingRight="@dimen/help_row_padding_left_right"
+        android:paddingEnd="@dimen/help_row_padding_left_right" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/customSuperLightBlueTheme"
+        android:id="@+id/faq_underline" />
+
+    <Button
+        android:text="@string/str_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/referral_tab_height"
+        android:id="@+id/btnContactUs"
+        android:textAllCaps="false"
+        android:background="@drawable/help_row_background"
+        android:textSize="@dimen/row_text_size"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/help_row_padding_left_right"
+        android:paddingRight="@dimen/help_row_padding_left_right"
+        android:paddingStart="@dimen/help_row_padding_left_right"
+        android:paddingEnd="@dimen/help_row_padding_left_right" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/customSuperLightBlueTheme"
+        android:id="@+id/contact_us_underline" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/referral_tab_height"
+        android:id="@+id/btnTermsPolicy"
+        android:background="@drawable/help_row_background"
+        android:textColor="@color/custom_dark_gray"
+        android:textSize="@dimen/row_text_size"
+        android:text="@string/str_terms_policy"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/help_row_padding_left_right"
+        android:paddingStart="@dimen/help_row_padding_left_right"
+        android:paddingRight="@dimen/help_row_padding_left_right"
+        android:paddingEnd="@dimen/help_row_padding_left_right"
+        android:textAllCaps="false" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/customSuperLightBlueTheme"
+        android:id="@+id/terms_underline" />
+
+    <Button
+        android:text="@string/str_app_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/referral_tab_height"
+        android:id="@+id/btnAppInfo"
+        android:textAllCaps="false"
+        android:background="@drawable/help_row_background"
+        android:textSize="@dimen/row_text_size"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/help_row_padding_left_right"
+        android:paddingRight="@dimen/help_row_padding_left_right"
+        android:paddingStart="@dimen/help_row_padding_left_right"
+        android:paddingEnd="@dimen/help_row_padding_left_right" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/customSuperLightBlueTheme"
+        android:id="@+id/about_app_underline" />
+</LinearLayout>

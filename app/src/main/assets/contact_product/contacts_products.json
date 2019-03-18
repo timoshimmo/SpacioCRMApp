@@ -1,0 +1,51 @@
+ [
+	  {
+		  "CONTACT_NAME" : "Tunde Aramide",
+		  "PRODUCTS" : ["Product 1", "Product 5", "Product 11"]
+	  },
+	  {
+		  "CONTACT_NAME" : "Chika Okon",
+		  "PRODUCTS" : ["Product 6", "Product 7", "Product 18", "Product 20"]
+	  },
+	 {
+		 "CONTACT_NAME" : "Terna Idoko",
+		 "PRODUCTS" : ["Product 2", "Product 4"]
+
+	 },
+	 {
+		 "CONTACT_NAME" : "Sarah Coker",
+		 "PRODUCTS" : ["Product 3", "Product 10", "Product 13", "Product 15", "Product 16", "Product 19"]
+
+	 },
+	 {
+		 "CONTACT_NAME" : "Hauwa Abdul",
+		 "PRODUCTS" : ["Product 21", "Product 22", "Product 24", "Product 25"]
+	 },
+	 {
+		 "CONTACT_NAME" : "Tony Fernandez",
+		 "PRODUCTS" : ["Product 8", "Product 9", "Product 12", "Product 18", "Product 19", "Product 23"]
+	 },
+	 {
+		 "CONTACT_NAME" : "Angelo Dos Santos",
+		 "PRODUCTS" : ["Product 3", "Product 5", "Product 11", "Product 17", "Product 19", "Product 23", "Product 25"]
+
+	 },
+
+	 {
+		 "CONTACT_NAME" : "Susan Orji",
+		 "PRODUCTS" : ["Product 13", "Product 25"]
+
+	 },
+
+	 {
+		 "CONTACT_NAME" : "Wilberforce Itta",
+		 "PRODUCTS" : ["Product 6", "Product 8", "Product 10", "Product 13"]
+
+	 },
+
+	 {
+		 "CONTACT_NAME" : "Ayoola Adebanjo",
+		 "PRODUCTS" : ["Product 1", "Product 7", "Product 14", "Product 19", "Product 20", "Product 23"]
+	 }
+
+ ]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_row_padding"
+    android:background="@drawable/clickable_top_bottom_border"
+    android:id="@+id/btnProductsRow"
+    android:clickable="true">
+
+    <TextView
+        android:text="@string/str_product_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProductTitle"
+        android:textSize="@dimen/row_text_size"
+        android:layout_marginTop="@dimen/contacts_name_top_margin"
+        android:textColor="@color/custom_dark_gray" />
+
+    <TextView
+        android:text="@string/str_product_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProductDesc"
+        android:textColor="@color/custom_blue_theme_gray"
+        android:textSize="@dimen/search_text_size"
+        android:ellipsize="end"
+        android:lines="2" />
+
+</LinearLayout>

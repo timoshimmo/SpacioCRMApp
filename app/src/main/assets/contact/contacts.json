@@ -1,0 +1,162 @@
+ [
+	  {
+		  "CONTACT_TYPE" : "Customer",
+		  "CONTACT_OPEN_CLOSE" : "Closed",
+		  "CONTACT_FIRST_NAME" : "Tobi",
+		  "CONTACT_LAST_NAME" : "Musa",
+		  "CONTACT_EMAIL" : "tundeara@gmail.com",
+		  "CONTACT_COMPANY_NAME" : "GingerBrix Inc.",
+		  "CONTACT_MOBILE" : "08025667107",
+		  "CONTACT_ADDRESS_TYPE" : "Home",
+		  "CONTACT_ADDRESS" : "2 Ichie Kris Onyekwuje Street",
+		  "CONTACT_CITY" : "Lekki Phase I",
+		  "CONTACT_STATE" : "Lagos",
+		  "CONTACT_COUNTRY" : "Nigeria",
+		  "NEAREST_LANDMARK" : "Sound City TV Office"
+	  },
+
+	  {
+		 "CONTACT_TYPE" : "Lead",
+		 "CONTACT_OPEN_CLOSE" : "Open",
+		 "CONTACT_FIRST_NAME" : "Nyemike",
+		 "CONTACT_LAST_NAME" : "Onukwu",
+		 "CONTACT_EMAIL" : "okonthefirst@yahoo.com",
+		 "CONTACT_COMPANY_NAME" : "Nyemike Developers International.",
+		 "CONTACT_MOBILE" : "08027360308",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "Westminster Market Ibafon",
+		 "CONTACT_CITY" : "Apapa",
+		 "CONTACT_STATE" : "Lagos",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Ibafon Oil Office"
+	  },
+
+	 {
+		 "CONTACT_TYPE" : "Lead",
+		 "CONTACT_OPEN_CLOSE" : "Open",
+		 "CONTACT_FIRST_NAME" : "Afam",
+		 "CONTACT_LAST_NAME" : "Ojemeni",
+		 "CONTACT_EMAIL" : "ternaparadise@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "Paradise Jewelry.",
+		 "CONTACT_MOBILE" : "+12679050330",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "Jabi Lake Mall, Bala Sokoto Way",
+		 "CONTACT_CITY" : "Jabi",
+		 "CONTACT_STATE" : "Abuja",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Global International College"
+	 },
+
+	 {
+		 "CONTACT_TYPE" : "Prospect",
+		 "CONTACT_OPEN_CLOSE" : "Open",
+		 "CONTACT_FIRST_NAME" : "Wande",
+		 "CONTACT_LAST_NAME" : "Fatai",
+		 "CONTACT_EMAIL" : "ternaparadise@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "SkyWay Constructions Ltd.",
+		 "CONTACT_MOBILE" : "08132139618",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "Julius Berger Corporate Headquarters",
+		 "CONTACT_CITY" : "Utako",
+		 "CONTACT_STATE" : "Abuja",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Utako Ultra Modern Market"
+	 },
+
+	 {
+		 "CONTACT_TYPE" : "Customer",
+		 "CONTACT_OPEN_CLOSE" : "Closed",
+		 "CONTACT_FIRST_NAME" : "Hauwa",
+		 "CONTACT_LAST_NAME" : "Abdul",
+		 "CONTACT_EMAIL" : "hauwabdul@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "H.Abdul Cosmetics",
+		 "CONTACT_MOBILE" : "07010265291",
+		 "CONTACT_ADDRESS_TYPE" : "Home",
+		 "CONTACT_ADDRESS" : "30, Onitsha Crescent off Gimbiya Street, Area 11",
+		 "CONTACT_CITY" : "Garki",
+		 "CONTACT_STATE" : "Abuja",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Cardio Care Cardiovascular Hospital"
+	 },
+
+	 {
+		 "CONTACT_TYPE" : "Prospect",
+		 "CONTACT_OPEN_CLOSE" : "Closed",
+		 "CONTACT_FIRST_NAME" : "Tony",
+		 "CONTACT_LAST_NAME" : "Fernandez",
+		 "CONTACT_EMAIL" : "tonyfurnitures@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "Tony Furnitures",
+		 "CONTACT_MOBILE" : "07010265291",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "18481 Trans-Amadi Industrial Layout Road, Trans Amadi",
+		 "CONTACT_CITY" : "Port Harcourt",
+		 "CONTACT_STATE" : "Rivers",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Haliburton Office Port Harcourt"
+	 },
+
+	 {
+		 "CONTACT_TYPE" : "Lead",
+		 "CONTACT_OPEN_CLOSE" : "Open",
+		 "CONTACT_FIRST_NAME" : "Angelo",
+		 "CONTACT_LAST_NAME" : "Dos Santos",
+		 "CONTACT_EMAIL" : "angelosantos@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "Premium Oil Ltd.",
+		 "CONTACT_MOBILE" : "08057527307",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "Church Gate Tower",
+		 "CONTACT_CITY" : "Victoria Island",
+		 "CONTACT_STATE" : "Lagos",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Muri Okunola Park Lagos"
+	 },
+
+	 {
+		 "CONTACT_TYPE" : "Customer",
+		 "CONTACT_OPEN_CLOSE" : "Closed",
+		 "CONTACT_FIRST_NAME" : "Susan",
+		 "CONTACT_LAST_NAME" : "Orji",
+		 "CONTACT_EMAIL" : "susanna@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "Suzie Restaurant.",
+		 "CONTACT_MOBILE" : "08057527307",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "Big Qua Road, Oqua St, Big Qua Town",
+		 "CONTACT_CITY" : "Calabar",
+		 "CONTACT_STATE" : "Cross River",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Transcorp Hotels Calabar"
+	 },
+
+	 {
+		 "CONTACT_TYPE" : "Customer",
+		 "CONTACT_OPEN_CLOSE" : "Closed",
+		 "CONTACT_FIRST_NAME" : "Wilberforce",
+		 "CONTACT_LAST_NAME" : "Itta",
+		 "CONTACT_EMAIL" : "willieforce@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "Itta Motors Ltd.",
+		 "CONTACT_MOBILE" : "08057527307",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "21-22 Mobolaji Bank Anthony Way, Opebi",
+		 "CONTACT_CITY" : "Ikeja",
+		 "CONTACT_STATE" : "Lagos",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Eko Hospital Ikeja"
+	 },
+
+	 {
+		 "CONTACT_TYPE" : "Prospect",
+		 "CONTACT_OPEN_CLOSE" : "Open",
+		 "CONTACT_FIRST_NAME" : "Ayoola",
+		 "CONTACT_LAST_NAME" : "Adebanjo",
+		 "CONTACT_EMAIL" : "ayadebanjo@gmail.com",
+		 "CONTACT_COMPANY_NAME" : "Ayoola Computers.",
+		 "CONTACT_MOBILE" : "08057527307",
+		 "CONTACT_ADDRESS_TYPE" : "Office",
+		 "CONTACT_ADDRESS" : "5 Otigba Street, Ikeja 100200",
+		 "CONTACT_CITY" : "Ikeja",
+		 "CONTACT_STATE" : "Lagos",
+		 "CONTACT_COUNTRY" : "Nigeria",
+		 "NEAREST_LANDMARK" : "Ikeja Bridge"
+	 }
+
+ ]

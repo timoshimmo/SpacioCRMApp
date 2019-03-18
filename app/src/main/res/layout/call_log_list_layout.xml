@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/btn_floating_margin_end"
+    android:paddingLeft="@dimen/btn_floating_margin_end"
+    android:paddingRight="@dimen/btn_floating_margin_end">
+
+    <TextView
+        android:id="@+id/txtCallLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_list_test"
+        android:textColor="@color/custom_dark_gray"
+        android:textSize="@dimen/txt_contacts_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCallDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_list_test"
+        android:textColor="@color/custom_blue_theme_gray"
+        android:textSize="@dimen/not_found_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCallLogs" />
+
+    <TextView
+        android:id="@+id/txtCallDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_list_test"
+        android:textColor="@color/custom_blue_theme_gray"
+        android:textSize="@dimen/not_found_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCallDateTime" />
+
+</android.support.constraint.ConstraintLayout>

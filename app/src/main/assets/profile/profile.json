@@ -1,0 +1,25 @@
+ [
+	  {
+		  "USERNAME" : "crmuser",
+		  "PASSWORD" : "crmpass",
+		  "FIRST_NAME" : "Femi",
+		  "LAST_NAME" : "Haruna",
+		  "EMAIL" : "femiakande@gmail.com",
+		  "MOBILE" : "09097364555",
+		  "DATE_OF_BIRTH" : "23/09/1990",
+		  "GENDER" : "Male",
+		  "POSITION" : 0
+	  },
+
+	  {
+		  "USERNAME" : "userspacio",
+		  "PASSWORD" : "userpass",
+		  "FIRST_NAME" : "Chioma",
+		  "LAST_NAME" : "Idahosa",
+		  "EMAIL" : "chiomaida@gmail.com",
+		  "MOBILE" : "09033899932",
+		  "DATE_OF_BIRTH" : "10/05/1989",
+		  "GENDER" : "Female",
+		  "POSITION" : 1
+	  }
+ ]

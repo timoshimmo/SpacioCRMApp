@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_body_full">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/rb_margin_right"
+        android:id="@+id/existing_contact_body">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtSearchExistingContact"
+            android:background="@android:color/transparent"
+            android:textSize="@dimen/dialog_title_text_size"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="@string/str_search_contacts"
+            android:paddingTop="@dimen/rb_margin_right"
+            android:paddingBottom="@dimen/rb_margin_right"
+            android:layout_alignParentTop="true" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtSearchExistingContact"
+            android:id="@+id/rvExistingContacts"
+            android:layout_marginTop="@dimen/rb_margin_right" />
+
+     <!--   <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginTop="@dimen/rb_margin_right"
+            android:id="@+id/btn_bottom_layout"
+            android:paddingLeft="@dimen/rb_margin_right"
+            android:paddingStart="@dimen/rb_margin_right"
+            android:layout_alignParentBottom="true"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp">
+
+            <Button
+                android:text="@string/str_cancel"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCancelExistingContactsDialog"
+                android:textAllCaps="false"
+                android:textSize="@dimen/dialog_title_text_size"
+                android:textColor="@color/custom_dark_gray"
+                android:layout_width="@dimen/btn_dialog_width"
+                android:background="@drawable/dialog_cancel_buttons_background"
+                android:fontFamily="sans-serif"
+                style="@style/Widget.AppCompat.Button.Borderless" />
+
+            <Button
+                android:text="@string/str_ok"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnConfirmExistingContacts"
+                android:layout_width="@dimen/btn_dialog_width"
+                android:textAllCaps="false"
+                android:textSize="@dimen/dialog_title_text_size"
+                android:textColor="@color/customBlueTheme"
+                android:background="@drawable/dialog_ok_buttons_background"
+                android:fontFamily="sans-serif"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="@dimen/rb_space_margin_right"
+                android:layout_marginStart="@dimen/rb_space_margin_right" />
+        </LinearLayout>  -->
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

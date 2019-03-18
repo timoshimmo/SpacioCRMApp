@@ -1,0 +1,153 @@
+ [
+	  {
+		  "STATE_NAME" : "Abuja"
+	  },
+
+	  {
+		  "STATE_NAME" : "Lagos"
+	  },
+
+	  {
+		 "STATE_NAME" : "Abia"
+	  },
+
+	  {
+		 "STATE_NAME" : "Adamawa"
+	  },
+
+	  {
+		 "STATE_NAME" : "Akwa Ibom"
+	  },
+
+	  {
+		 "STATE_NAME" : "Anambra"
+	  },
+
+	  {
+		 "STATE_NAME" : "Bauchi"
+	  },
+
+	  {
+		 "STATE_NAME" : "Bayelsa"
+	  },
+
+      {
+         "STATE_NAME" : "Benue"
+      },
+
+	  {
+		 "STATE_NAME" : "Borno"
+	  },
+
+	  {
+		 "STATE_NAME" : "Cross River"
+	  },
+
+	  {
+		 "STATE_NAME" : "Delta"
+	  },
+
+	 {
+		 "STATE_NAME" : "Ebonyi"
+	 },
+
+	 {
+		 "STATE_NAME" : "Edo"
+	 },
+
+	 {
+		 "STATE_NAME" : "Ekiti"
+	 },
+
+	 {
+		 "STATE_NAME" : "Enugu"
+	 },
+
+	 {
+		 "STATE_NAME" : "Gombe"
+	 },
+
+	 {
+		 "STATE_NAME" : "Imo"
+	 },
+
+	 {
+		 "STATE_NAME" : "Jigawa"
+	 },
+
+	 {
+		 "STATE_NAME" : "Kaduna"
+	 },
+
+	 {
+		 "STATE_NAME" : "Kano"
+	 },
+
+	 {
+		 "STATE_NAME" : "Katsina"
+	 },
+
+	 {
+		 "STATE_NAME" : "Kebbi"
+	 },
+
+	 {
+		 "STATE_NAME" : "Kogi"
+	 },
+
+     {
+         "STATE_NAME" : "Kwara"
+     },
+
+	 {
+		 "STATE_NAME" : "Lagos"
+	 },
+
+	 {
+		 "STATE_NAME" : "Nasarawa"
+	 },
+
+	 {
+		 "STATE_NAME" : "Niger"
+	 },
+
+	 {
+		 "STATE_NAME" : "Ogun"
+	 },
+
+     {
+         "STATE_NAME" : "Ondo"
+     },
+
+     {
+         "STATE_NAME" : "Osun"
+     },
+
+     {
+         "STATE_NAME" : "Oyo"
+     },
+
+     {
+         "STATE_NAME" : "Plateau"
+     },
+
+     {
+         "STATE_NAME" : "Rivers"
+     },
+
+     {
+         "STATE_NAME" : "Sokoto"
+     },
+
+     {
+        "STATE_NAME" : "Taraba"
+     },
+
+     {
+        "STATE_NAME" : "Yobe"
+     },
+
+     {
+        "STATE_NAME" : "Zamfara"
+     }
+ ]

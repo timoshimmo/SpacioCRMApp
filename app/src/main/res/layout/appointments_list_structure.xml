@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_row_padding"
+    android:background="@drawable/clickable_top_bottom_border"
+    android:id="@+id/btnAppointmentsRow"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_stopwatch"
+            android:id="@+id/imgStopWatch"
+            android:layout_toLeftOf="@+id/txtDaysLeft"
+            android:layout_toStartOf="@+id/txtDaysLeft"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/img_stop_watch_desc" />
+
+        <TextView
+            android:text="@string/time_left_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDaysLeft"
+            android:gravity="end"
+            android:textColor="@color/custom_mid_gray"
+            android:textSize="@dimen/btn_text_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/rb_space_margin_right"
+            android:layout_marginStart="@dimen/rb_space_margin_right" />
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/event_launch_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAppointmentTitle"
+        android:textSize="@dimen/row_text_size"
+        android:layout_marginTop="@dimen/contacts_name_top_margin"
+        android:textColor="@color/custom_dark_gray" />
+
+    <TextView
+        android:text="@string/title_activity_contact_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAppointmentContact"
+        android:textSize="@dimen/btn_text_size"
+        android:textColor="@color/custom_blue_theme_gray" />
+
+</LinearLayout>

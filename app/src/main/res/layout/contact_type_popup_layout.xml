@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/contact_type_popup_card">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/rb_margin_right"
+        android:paddingTop="@dimen/rb_margin_right">
+
+        <TextView
+            android:text="@string/contact_type_desc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContactTypePopupTitle"
+            android:textColor="@color/custom_dark_gray"
+            android:textSize="@dimen/dialog_title_text_size"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginLeft="@dimen/rb_margin_right"
+            android:layout_marginStart="@dimen/rb_margin_right" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_container_height"
+            android:layout_marginTop="@dimen/rb_margin_right"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/red_oval_background"
+                    android:layout_width="@dimen/customer_indicator_size"
+                    android:layout_height="@dimen/customer_indicator_size"
+                    android:id="@+id/lead_indicator"
+                    android:layout_centerInParent="true"></LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:padding="@dimen/rb_margin_right">
+
+                <TextView
+                    android:text="@string/str_lead_button_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtLeadDesc"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/custom_dark_gray"
+                    android:textSize="@dimen/search_text_size" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:background="@color/customSuperLightBlueTheme"
+            android:id="@+id/lead_underline" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_container_height"
+            android:layout_marginTop="@dimen/rb_margin_right"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/yellow_oval_background"
+                    android:layout_width="@dimen/customer_indicator_size"
+                    android:layout_height="@dimen/customer_indicator_size"
+                    android:id="@+id/prospect_indicator"
+                    android:layout_centerInParent="true"></LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:padding="@dimen/rb_margin_right">
+
+                <TextView
+                    android:text="@string/str_prospect_button_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtProspectDesc"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/custom_dark_gray"
+                    android:textSize="@dimen/search_text_size" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:background="@color/customSuperLightBlueTheme"
+            android:id="@+id/prospect_underline" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_container_height"
+            android:layout_marginTop="@dimen/rb_margin_right"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/green_oval_background"
+                    android:layout_width="@dimen/customer_indicator_size"
+                    android:layout_height="@dimen/customer_indicator_size"
+                    android:id="@+id/customer_indicator"
+                    android:layout_centerInParent="true"></LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:padding="@dimen/rb_margin_right">
+
+                <TextView
+                    android:text="@string/str_customer_button_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtCustomerDesc"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/custom_dark_gray"
+                    android:textSize="@dimen/search_text_size" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:text="@android:string/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnOkContactTypePopup"
+            android:layout_marginTop="@dimen/rb_margin_right"
+            android:background="@drawable/dialog_ok_buttons_background"
+            android:textColor="@color/customBlueTheme"
+            android:layout_marginLeft="@dimen/custom_row_items_margin_left_right"
+            android:layout_marginStart="@dimen/custom_row_items_margin_left_right"
+            android:layout_marginEnd="@dimen/custom_row_items_margin_left_right"
+            android:layout_marginRight="@dimen/custom_row_items_margin_left_right"
+            android:textSize="@dimen/txt_contacts_text_size"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

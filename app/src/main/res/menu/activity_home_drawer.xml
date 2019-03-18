@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/top_nav">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_nav_user"
+            android:title="@string/nav_profile_string" />
+        <item
+            android:id="@+id/nav_performance_graph"
+            android:icon="@drawable/ic_nav_perf_graph"
+            android:title="@string/nav_pgraph_string" />
+        <item
+            android:id="@+id/nav_preferences"
+            android:icon="@drawable/ic_nav_preferences"
+            android:title="@string/nav_preferences_string" />
+    </group>
+    <group android:id="@+id/bottom_nav"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_nav_help"
+            android:title="@string/nav_help_string" />
+        <item android:title="@string/nav_logout_string"
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_sign_out" />
+    </group>
+
+</menu>

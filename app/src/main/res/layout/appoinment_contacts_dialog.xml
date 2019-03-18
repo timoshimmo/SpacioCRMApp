@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_body_full">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/rb_margin_right">
+
+        <TextView
+            android:text="@string/str_select_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/apt_dialog_date_title"
+            android:textColor="@color/custom_dark_gray"
+            android:textSize="@dimen/dialog_title_text_size"
+            android:layout_alignParentTop="true"
+            android:paddingTop="@dimen/rb_margin_right"
+            android:paddingBottom="@dimen/rb_margin_right" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/apt_dialog_date_title"
+            android:layout_above="@+id/btn_bottom_layout"
+            android:id="@+id/rvAppointmentContacts" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginTop="@dimen/rb_margin_right"
+            android:id="@+id/btn_bottom_layout"
+            android:paddingLeft="@dimen/rb_margin_right"
+            android:paddingStart="@dimen/rb_margin_right"
+            android:layout_alignParentBottom="true"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp">
+
+            <Button
+                android:text="@string/str_cancel"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCancelAptContact"
+                android:textAllCaps="false"
+                android:textSize="@dimen/dialog_title_text_size"
+                android:textColor="@color/custom_dark_gray"
+                android:layout_width="@dimen/btn_dialog_width"
+                android:background="@drawable/dialog_cancel_buttons_background"
+                android:fontFamily="sans-serif"
+                style="@style/Widget.AppCompat.Button.Borderless" />
+
+            <Button
+                android:text="@string/str_ok"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnConfirmAptContact"
+                android:layout_width="@dimen/btn_dialog_width"
+                android:textAllCaps="false"
+                android:textSize="@dimen/dialog_title_text_size"
+                android:textColor="@color/customBlueTheme"
+                android:background="@drawable/dialog_ok_buttons_background"
+                android:fontFamily="sans-serif"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="@dimen/rb_space_margin_right"
+                android:layout_marginStart="@dimen/rb_space_margin_right" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

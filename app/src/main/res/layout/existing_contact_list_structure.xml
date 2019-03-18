@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_row_padding"
+    android:background="@drawable/clickable_top_bottom_border"
+    android:id="@+id/btnAppointmentsRow"
+    android:clickable="true">
+
+    <TextView
+        android:text="@string/str_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtExistingContactName"
+        android:textSize="@dimen/row_text_size"
+        android:layout_marginTop="@dimen/contacts_name_top_margin"
+        android:textColor="@color/custom_dark_gray" />
+
+    <TextView
+        android:text="@string/str_mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtExistingContactMobile"
+        android:textSize="@dimen/btn_text_size"
+        android:textColor="@color/custom_blue_theme_gray" />
+
+</LinearLayout>

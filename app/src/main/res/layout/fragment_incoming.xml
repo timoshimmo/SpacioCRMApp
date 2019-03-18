@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.spaciocrm.home.fragments.referrals.FragIncoming">
+
+  <!--  <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:id="@+id/tbIncomingReferral"
+        app:contentInsetStart="@dimen/search_ttolbar_padding_left_right"
+        app:titleMargin="@dimen/zero_dp">
+
+    </android.support.v7.widget.Toolbar> -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingEnd="@dimen/btn_floating_margin_end"
+        android:paddingRight="@dimen/btn_floating_margin_end"
+        android:paddingLeft="@dimen/btn_floating_margin_end"
+        android:paddingStart="@dimen/btn_floating_margin_end"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/not_found_container_margin_top"
+        android:id="@+id/not_found_layout"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgNFIncoming"
+            android:contentDescription="@string/img_incoming_desc"
+            app:srcCompat="@drawable/ic_not_found_incoming" />
+
+        <TextView
+            android:text="@string/incoming_referral_not_found_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtIncomingNFTitle"
+            android:textSize="@dimen/not_found_ougoing_text_size"
+            android:textColor="@color/customBlueTheme"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center" />
+
+        <TextView
+            android:text="@string/not_found_incoming_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtIncomingNFMsg"
+            android:gravity="center"
+            android:textColor="@color/custom_dark_gray"
+            android:textSize="@dimen/not_found_text_size" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvIncoming" />
+</RelativeLayout>

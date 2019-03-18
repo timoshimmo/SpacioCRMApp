@@ -1,0 +1,1232 @@
+ [
+  {
+		"ID" : 256,
+		"COUNTRY_TXT" : "Afghanistan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AF"
+  },
+  {
+		"ID" : 257,
+		"COUNTRY_TXT" : "Albania",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AL"
+  },
+  {
+		"ID" : 258,
+		"COUNTRY_TXT" : "Algeria",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "DZ"
+  },
+  {
+		"ID" : 259,
+		"COUNTRY_TXT" : "Andorra",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AD"
+  },
+  {
+		"ID" : 260,
+		"COUNTRY_TXT" : "Angola",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AO"
+  },
+  {
+		"ID" : 261,
+		"COUNTRY_TXT" : "Anguilla",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "Al"
+  },
+  {
+		"ID" : 262,
+		"COUNTRY_TXT" : "Antigua and Barbuda",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AG"
+  },
+  {
+		"ID" : 263,
+		"COUNTRY_TXT" : "Argentina",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AR"
+  },
+  {
+		"ID" : 264,
+		"COUNTRY_TXT" : "Armenia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AM"
+  },
+  {
+		"ID" : 265,
+		"COUNTRY_TXT" : "Aruba",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AW"
+  },
+  {
+		"ID" : 266,
+		"COUNTRY_TXT" : "Australia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AU"
+  },
+  {
+		"ID" : 267,
+		"COUNTRY_TXT" : "Austria",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AT"
+  },
+  {
+		"ID" : 268,
+		"COUNTRY_TXT" : "Azerbaijan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AZ"
+  },
+  {
+		"ID" : 269,
+		"COUNTRY_TXT" : "Bahamas",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BS"
+  },
+  {
+		"ID" : 270,
+		"COUNTRY_TXT" : "Bahrain",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BH"
+  },
+  {
+		"ID" : 271,
+		"COUNTRY_TXT" : "Bangladesh",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BD"
+  },
+  {
+		"ID" : 272,
+		"COUNTRY_TXT" : "Barbados",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BB"
+  },
+  {
+		"ID" : 273,
+		"COUNTRY_TXT" : "Belarus",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BY"
+  },
+  {
+		"ID" : 274,
+		"COUNTRY_TXT" : "Belgium",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BE"
+  },
+  {
+		"ID" : 275,
+		"COUNTRY_TXT" : "Belize",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BZ"
+  },
+  {
+		"ID" : 276,
+		"COUNTRY_TXT" : "Benin",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BJ"
+  },
+  {
+		"ID" : 277,
+		"COUNTRY_TXT" : "Bermuda",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BM"
+  },
+  {
+		"ID" : 278,
+		"COUNTRY_TXT" : "Bhutan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BT"
+  },
+  {
+		"ID" : 279,
+		"COUNTRY_TXT" : "Bolivia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BO"
+  },
+  {
+		"ID" : 280,
+		"COUNTRY_TXT" : "Bosnia/Herzegovina",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BA"
+  },
+  {
+		"ID" : 281,
+		"COUNTRY_TXT" : "Botswana",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BW"
+  },
+  {
+		"ID" : 282,
+		"COUNTRY_TXT" : "Brazil",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BR"
+  },
+  {
+		"ID" : 283,
+		"COUNTRY_TXT" : "British Virgin Is",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "VG"
+  },
+  {
+		"ID" : 284,
+		"COUNTRY_TXT" : "Brunei Darussalam",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BN"
+  },
+  {
+		"ID" : 285,
+		"COUNTRY_TXT" : "Bulgaria",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BG"
+  },
+  {
+		"ID" : 286,
+		"COUNTRY_TXT" : "Burkina Faso",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BF"
+  },
+  {
+		"ID" : 287,
+		"COUNTRY_TXT" : "Burundi",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "BI"
+  },
+  {
+		"ID" : 288,
+		"COUNTRY_TXT" : "Cape  Verde",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CV"
+  },
+  {
+		"ID" : 289,
+		"COUNTRY_TXT" : "Cambodia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KH"
+  },
+  {
+		"ID" : 290,
+		"COUNTRY_TXT" : "Cameroon",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CM"
+  },
+  {
+		"ID" : 291,
+		"COUNTRY_TXT" : "Canada",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CA"
+  },
+  {
+		"ID" : 292,
+		"COUNTRY_TXT" : "Cayman Islands",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KY"
+  },
+  {
+		"ID" : 293,
+		"COUNTRY_TXT" : "Central African Rep.",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CF"
+  },
+  {
+		"ID" : 294,
+		"COUNTRY_TXT" : "Chad",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TD"
+  },
+  {
+		"ID" : 295,
+		"COUNTRY_TXT" : "Chile",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CL"
+  },
+  {
+		"ID" : 296,
+		"COUNTRY_TXT" : "China",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CN"
+  },
+  {
+		"ID" : 297,
+		"COUNTRY_TXT" : "China, Hong Kong",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "HK"
+  },
+  {
+		"ID" : 298,
+		"COUNTRY_TXT" : "China, Macao",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MO"
+  },
+  {
+		"ID" : 299,
+		"COUNTRY_TXT" : "Colombia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CO"
+  },
+  {
+		"ID" : 300,
+		"COUNTRY_TXT" : "Comoros",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KM"
+  },
+  {
+		"ID" : 301,
+		"COUNTRY_TXT" : "Congo",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CG"
+  },
+  {
+		"ID" : 302,
+		"COUNTRY_TXT" : "Congo, DR",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CD"
+  },
+  {
+		"ID" : 303,
+		"COUNTRY_TXT" : "Cook Islands",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CK"
+  },
+  {
+		"ID" : 304,
+		"COUNTRY_TXT" : "Costa Rica",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CR"
+  },
+  {
+		"ID" : 305,
+		"COUNTRY_TXT" : "Cote d\"Ivoire",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CI"
+  },
+  {
+		"ID" : 306,
+		"COUNTRY_TXT" : "Croatia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "HR"
+  },
+  {
+		"ID" : 307,
+		"COUNTRY_TXT" : "Cuba",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CU"
+  },
+  {
+		"ID" : 308,
+		"COUNTRY_TXT" : "Cyprus",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CY"
+  },
+  {
+		"ID" : 309,
+		"COUNTRY_TXT" : "Czech Republic",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CZ"
+  },
+  {
+		"ID" : 310,
+		"COUNTRY_TXT" : "Denmark",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "DK"
+  },
+  {
+		"ID" : 311,
+		"COUNTRY_TXT" : "Djibouti",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "DJ"
+  },
+  {
+		"ID" : 312,
+		"COUNTRY_TXT" : "Dominica",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "DM"
+  },
+  {
+		"ID" : 313,
+		"COUNTRY_TXT" : "Dominican Republic",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "DO"
+  },
+  {
+		"ID" : 314,
+		"COUNTRY_TXT" : "Ecuador",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "EC"
+  },
+  {
+		"ID" : 315,
+		"COUNTRY_TXT" : "Egypt",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "EG"
+  },
+  {
+		"ID" : 316,
+		"COUNTRY_TXT" : "El Salvador",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SV"
+  },
+  {
+		"ID" : 317,
+		"COUNTRY_TXT" : "Equatorial Guinea",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GQ"
+  },
+  {
+		"ID" : 318,
+		"COUNTRY_TXT" : "Eritrea",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ER"
+  },
+  {
+		"ID" : 319,
+		"COUNTRY_TXT" : "Estonia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "EE"
+  },
+  {
+		"ID" : 320,
+		"COUNTRY_TXT" : "Ethiopia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ET"
+  },
+  {
+		"ID" : 321,
+		"COUNTRY_TXT" : "Fiji",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "FJ"
+  },
+  {
+		"ID" : 322,
+		"COUNTRY_TXT" : "Finland",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "FI"
+  },
+  {
+		"ID" : 323,
+		"COUNTRY_TXT" : "France",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "FR"
+  },
+  {
+		"ID" : 324,
+		"COUNTRY_TXT" : "Gabon",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GA"
+  },
+  {
+		"ID" : 325,
+		"COUNTRY_TXT" : "Gambia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GM"
+  },
+  {
+		"ID" : 326,
+		"COUNTRY_TXT" : "Georgia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GE"
+  },
+  {
+		"ID" : 327,
+		"COUNTRY_TXT" : "Germany",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "DE"
+  },
+  {
+		"ID" : 328,
+		"COUNTRY_TXT" : "Ghana",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GH"
+  },
+  {
+		"ID" : 329,
+		"COUNTRY_TXT" : "Gibraltar",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GI"
+  },
+  {
+		"ID" : 330,
+		"COUNTRY_TXT" : "Greece",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GR"
+  },
+  {
+		"ID" : 331,
+		"COUNTRY_TXT" : "Grenada",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GD"
+  },
+  {
+		"ID" : 332,
+		"COUNTRY_TXT" : "Guatemala",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GT"
+  },
+  {
+		"ID" : 333,
+		"COUNTRY_TXT" : "Guinea",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GN"
+  },
+  {
+		"ID" : 334,
+		"COUNTRY_TXT" : "Guinea-Bissau",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GW"
+  },
+  {
+		"ID" : 335,
+		"COUNTRY_TXT" : "Guyana",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GY"
+  },
+  {
+		"ID" : 336,
+		"COUNTRY_TXT" : "Haiti",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "HT"
+  },
+  {
+		"ID" : 337,
+		"COUNTRY_TXT" : "Holy See",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "VA"
+  },
+  {
+		"ID" : 338,
+		"COUNTRY_TXT" : "Honduras",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "HN"
+  },
+  {
+		"ID" : 339,
+		"COUNTRY_TXT" : "Hungary",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "HU"
+  },
+  {
+		"ID" : 340,
+		"COUNTRY_TXT" : "Iceland",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "IS"
+  },
+  {
+		"ID" : 341,
+		"COUNTRY_TXT" : "India",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "IN"
+  },
+  {
+		"ID" : 342,
+		"COUNTRY_TXT" : "Indonesia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ID"
+  },
+  {
+		"ID" : 343,
+		"COUNTRY_TXT" : "Iran, Islamic Rep.",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "IR"
+  },
+  {
+		"ID" : 344,
+		"COUNTRY_TXT" : "Iraq",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "IQ"
+  },
+  {
+		"ID" : 345,
+		"COUNTRY_TXT" : "Ireland",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "IE"
+  },
+  {
+		"ID" : 346,
+		"COUNTRY_TXT" : "Israel",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "IL"
+  },
+  {
+		"ID" : 347,
+		"COUNTRY_TXT" : "Italy",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "IT"
+  },
+  {
+		"ID" : 348,
+		"COUNTRY_TXT" : "Jamaica",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "JM"
+  },
+  {
+		"ID" : 349,
+		"COUNTRY_TXT" : "Japan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "JP"
+  },
+  {
+		"ID" : 350,
+		"COUNTRY_TXT" : "Jordan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "JO"
+  },
+  {
+		"ID" : 351,
+		"COUNTRY_TXT" : "Kazakhstan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KZ"
+  },
+  {
+		"ID" : 352,
+		"COUNTRY_TXT" : "Kenya",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KE"
+  },
+  {
+		"ID" : 353,
+		"COUNTRY_TXT" : "Kiribati",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KI"
+  },
+  {
+		"ID" : 354,
+		"COUNTRY_TXT" : "Korea, DPR",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KP"
+  },
+  {
+		"ID" : 355,
+		"COUNTRY_TXT" : "Korea, Rep.",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KR"
+  },
+  {
+		"ID" : 356,
+		"COUNTRY_TXT" : "Kuwait",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KW"
+  },
+  {
+		"ID" : 357,
+		"COUNTRY_TXT" : "Kyrgyzstan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KG"
+  },
+  {
+		"ID" : 358,
+		"COUNTRY_TXT" : "Lao PDR",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LA"
+  },
+  {
+		"ID" : 359,
+		"COUNTRY_TXT" : "Latvia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LV"
+  },
+  {
+		"ID" : 360,
+		"COUNTRY_TXT" : "Lebanon",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LB"
+  },
+  {
+		"ID" : 361,
+		"COUNTRY_TXT" : "Lesotho",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LS"
+  },
+  {
+		"ID" : 362,
+		"COUNTRY_TXT" : "Liberia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LR"
+  },
+  {
+		"ID" : 363,
+		"COUNTRY_TXT" : "Libya",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LY"
+  },
+  {
+		"ID" : 364,
+		"COUNTRY_TXT" : "Liechtenstein",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LI"
+  },
+  {
+		"ID" : 365,
+		"COUNTRY_TXT" : "Lithuania",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LT"
+  },
+  {
+		"ID" : 366,
+		"COUNTRY_TXT" : "Luxembourg",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LU"
+  },
+  {
+		"ID" : 367,
+		"COUNTRY_TXT" : "Madagascar",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MG"
+  },
+  {
+		"ID" : 368,
+		"COUNTRY_TXT" : "Malawi",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MW"
+  },
+  {
+		"ID" : 369,
+		"COUNTRY_TXT" : "Malaysia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MY"
+  },
+  {
+		"ID" : 370,
+		"COUNTRY_TXT" : "Maldives",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MV"
+  },
+  {
+		"ID" : 371,
+		"COUNTRY_TXT" : "Mali",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ML"
+  },
+  {
+		"ID" : 372,
+		"COUNTRY_TXT" : "Malta",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MT"
+  },
+  {
+		"ID" : 373,
+		"COUNTRY_TXT" : "Marshall Islands",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MH"
+  },
+  {
+		"ID" : 374,
+		"COUNTRY_TXT" : "Mauritania",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MR"
+  },
+  {
+		"ID" : 375,
+		"COUNTRY_TXT" : "Mauritius",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MU"
+  },
+  {
+		"ID" : 376,
+		"COUNTRY_TXT" : "Mexico",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MX"
+  },
+  {
+		"ID" : 377,
+		"COUNTRY_TXT" : "Monaco",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MC"
+  },
+  {
+		"ID" : 378,
+		"COUNTRY_TXT" : "Mongolia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MN"
+  },
+  {
+		"ID" : 379,
+		"COUNTRY_TXT" : "Montenegro",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ME"
+  },
+  {
+		"ID" : 380,
+		"COUNTRY_TXT" : "Montserrat",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MS"
+  },
+  {
+		"ID" : 381,
+		"COUNTRY_TXT" : "Morocco",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MA"
+  },
+  {
+		"ID" : 382,
+		"COUNTRY_TXT" : "Mozambique",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MZ"
+  },
+  {
+		"ID" : 383,
+		"COUNTRY_TXT" : "Myanmar",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MM"
+  },
+  {
+		"ID" : 384,
+		"COUNTRY_TXT" : "Namibia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NA"
+  },
+  {
+		"ID" : 385,
+		"COUNTRY_TXT" : "Nauru",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NR"
+  },
+  {
+		"ID" : 386,
+		"COUNTRY_TXT" : "Nepal",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NP"
+  },
+  {
+		"ID" : 387,
+		"COUNTRY_TXT" : "Netherlands",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NL"
+  },
+  {
+		"ID" : 388,
+		"COUNTRY_TXT" : "New Zealand",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NZ"
+  },
+  {
+		"ID" : 389,
+		"COUNTRY_TXT" : "Nicaragua",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NI"
+  },
+  {
+		"ID" : 390,
+		"COUNTRY_TXT" : "Niger",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NE"
+  },
+  {
+		"ID" : 391,
+		"COUNTRY_TXT" : "Nigeria",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NG"
+  },
+  {
+		"ID" : 392,
+		"COUNTRY_TXT" : "Niue",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NU"
+  },
+  {
+		"ID" : 393,
+		"COUNTRY_TXT" : "Norway",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "NO"
+  },
+  {
+		"ID" : 394,
+		"COUNTRY_TXT" : "Oman",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "OM"
+  },
+  {
+		"ID" : 395,
+		"COUNTRY_TXT" : "Pakistan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PK"
+  },
+  {
+		"ID" : 396,
+		"COUNTRY_TXT" : "Palestine",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PS"
+  },
+  {
+		"ID" : 397,
+		"COUNTRY_TXT" : "Panama",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PA"
+  },
+  {
+		"ID" : 398,
+		"COUNTRY_TXT" : "Papua New Guinea",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PG"
+  },
+  {
+		"ID" : 399,
+		"COUNTRY_TXT" : "Paraguay",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PY"
+  },
+  {
+		"ID" : 400,
+		"COUNTRY_TXT" : "Peru",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PE"
+  },
+  {
+		"ID" : 401,
+		"COUNTRY_TXT" : "Philippines",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PH"
+  },
+  {
+		"ID" : 402,
+		"COUNTRY_TXT" : "Poland",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PL"
+  },
+  {
+		"ID" : 403,
+		"COUNTRY_TXT" : "Portugal",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "PT"
+  },
+  {
+		"ID" : 404,
+		"COUNTRY_TXT" : "Qatar",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "QA"
+  },
+  {
+		"ID" : 405,
+		"COUNTRY_TXT" : "Republic of Moldova",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MD"
+  },
+  {
+		"ID" : 406,
+		"COUNTRY_TXT" : "Romania",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "RO"
+  },
+  {
+		"ID" : 407,
+		"COUNTRY_TXT" : "Russian Federation",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "RU"
+  },
+  {
+		"ID" : 408,
+		"COUNTRY_TXT" : "Rwanda",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "RW"
+  },
+  {
+		"ID" : 409,
+		"COUNTRY_TXT" : "Saint Kitts and Nevis",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "KN"
+  },
+  {
+		"ID" : 410,
+		"COUNTRY_TXT" : "Saint Lucia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LC"
+  },
+  {
+		"ID" : 411,
+		"COUNTRY_TXT" : "Samoa",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "WS"
+  },
+  {
+		"ID" : 412,
+		"COUNTRY_TXT" : "San Marino",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SM"
+  },
+  {
+		"ID" : 413,
+		"COUNTRY_TXT" : "Sao Tome and Principe",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ST"
+  },
+  {
+		"ID" : 414,
+		"COUNTRY_TXT" : "Saudi Arabia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SA"
+  },
+  {
+		"ID" : 415,
+		"COUNTRY_TXT" : "Senegal",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SN"
+  },
+  {
+		"ID" : 416,
+		"COUNTRY_TXT" : "Serbia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "RS"
+  },
+  {
+		"ID" : 417,
+		"COUNTRY_TXT" : "Seychelles",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SC"
+  },
+  {
+		"ID" : 418,
+		"COUNTRY_TXT" : "Sierra Leone",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SL"
+  },
+  {
+		"ID" : 419,
+		"COUNTRY_TXT" : "Singapore",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SG"
+  },
+  {
+		"ID" : 420,
+		"COUNTRY_TXT" : "Slovakia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SK"
+  },
+  {
+		"ID" : 421,
+		"COUNTRY_TXT" : "Slovenia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SI"
+  },
+  {
+		"ID" : 422,
+		"COUNTRY_TXT" : "Solomon Islands",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SB"
+  },
+  {
+		"ID" : 423,
+		"COUNTRY_TXT" : "Somalia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SO"
+  },
+  {
+		"ID" : 424,
+		"COUNTRY_TXT" : "South Africa",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ZA"
+  },
+  {
+		"ID" : 425,
+		"COUNTRY_TXT" : "Spain",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ES"
+  },
+  {
+		"ID" : 426,
+		"COUNTRY_TXT" : "Sri Lanka",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "LK"
+  },
+  {
+		"ID" : 427,
+		"COUNTRY_TXT" : "St Vincent/Grenadines",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "--"
+  },
+  {
+		"ID" : 428,
+		"COUNTRY_TXT" : "Sudan (pre-secession)",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SD"
+  },
+  {
+		"ID" : 429,
+		"COUNTRY_TXT" : "Suriname",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SR"
+  },
+  {
+		"ID" : 430,
+		"COUNTRY_TXT" : "Swaziland",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "CH"
+  },
+  {
+		"ID" : 431,
+		"COUNTRY_TXT" : "Sweden",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SE"
+  },
+  {
+		"ID" : 432,
+		"COUNTRY_TXT" : "Switzerland",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SZ"
+  },
+  {
+		"ID" : 433,
+		"COUNTRY_TXT" : "Syrian Arab Republic",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "SY"
+  },
+  {
+		"ID" : 434,
+		"COUNTRY_TXT" : "Tajikistan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TJ"
+  },
+  {
+		"ID" : 435,
+		"COUNTRY_TXT" : "Tanzania",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TZ"
+  },
+  {
+		"ID" : 436,
+		"COUNTRY_TXT" : "TFYR Macedonia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "MK"
+  },
+  {
+		"ID" : 437,
+		"COUNTRY_TXT" : "Thailand",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TH"
+  },
+  {
+		"ID" : 438,
+		"COUNTRY_TXT" : "Timor-Leste",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TL"
+  },
+  {
+		"ID" : 439,
+		"COUNTRY_TXT" : "Togo",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TG"
+  },
+  {
+		"ID" : 440,
+		"COUNTRY_TXT" : "Tokelau",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TK"
+  },
+  {
+		"ID" : 441,
+		"COUNTRY_TXT" : "Tonga",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TG"
+  },
+  {
+		"ID" : 442,
+		"COUNTRY_TXT" : "Trinidad and Tobago",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TT"
+  },
+  {
+		"ID" : 443,
+		"COUNTRY_TXT" : "Tunisia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TN"
+  },
+  {
+		"ID" : 444,
+		"COUNTRY_TXT" : "Turkey",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TR"
+  },
+  {
+		"ID" : 445,
+		"COUNTRY_TXT" : "Turkmenistan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TM"
+  },
+  {
+		"ID" : 446,
+		"COUNTRY_TXT" : "Turks and Caicos Is",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TC"
+  },
+  {
+		"ID" : 447,
+		"COUNTRY_TXT" : "Tuvalu",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "TV"
+  },
+  {
+		"ID" : 448,
+		"COUNTRY_TXT" : "Uganda",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "UG"
+  },
+  {
+		"ID" : 449,
+		"COUNTRY_TXT" : "Ukraine",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "UA"
+  },
+  {
+		"ID" : 450,
+		"COUNTRY_TXT" : "United Arab Emirates",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "AE"
+  },
+  {
+		"ID" : 451,
+		"COUNTRY_TXT" : "United Kingdom",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "GB"
+  },
+  {
+		"ID" : 452,
+		"COUNTRY_TXT" : "United States",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "US"
+  },
+  {
+		"ID" : 453,
+		"COUNTRY_TXT" : "Uruguay",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "UY"
+  },
+  {
+		"ID" : 454,
+		"COUNTRY_TXT" : "Uzbekistan",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "UZ"
+  },
+  {
+		"ID" : 455,
+		"COUNTRY_TXT" : "Vanuatu",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "VU"
+  },
+  {
+		"ID" : 456,
+		"COUNTRY_TXT" : "Venezuela",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "VE"
+  },
+  {
+		"ID" : 457,
+		"COUNTRY_TXT" : "Viet Nam",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "VN"
+  },
+  {
+		"ID" : 458,
+		"COUNTRY_TXT" : "Yemen",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "YE"
+  },
+  {
+		"ID" : 459,
+		"COUNTRY_TXT" : "Zambia",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ZM"
+  },
+  {
+		"ID" : 460,
+		"COUNTRY_TXT" : "Zimbabwe",
+		"CNT_DESC" : "NULL",
+		"COUNTRY_CODE" : "ZW"
+  }
+  ]

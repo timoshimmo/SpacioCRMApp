@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_contacts_string"
+        android:id="@+id/nav_contacts"
+        android:icon="@drawable/ic_nav_phone_book" />
+    <item android:title="@string/nav_appointments"
+        android:id="@+id/nav_appointments"
+        android:icon="@drawable/ic_nav_event" />
+    <item android:title="@string/nav_products_string"
+        android:id="@+id/nav_products"
+        android:icon="@drawable/ic_nav_products" />
+    <item android:title="@string/nav_referrals_string"
+        android:id="@+id/nav_referrals"
+        android:icon="@drawable/ic_nav_referrals" />
+    <item android:title="@string/nav_menu_string"
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_nav_menu" />
+</menu>

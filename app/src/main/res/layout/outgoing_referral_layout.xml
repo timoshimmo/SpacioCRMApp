@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/outgoing_referral_top_title_layout"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_cancel"
+            android:id="@+id/btnCloseOutgoingReferral"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/btn_close_new_apt_desc"
+            android:layout_marginLeft="@dimen/btn_floating_margin_end"
+            android:layout_marginStart="@dimen/btn_floating_margin_end" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtOutgoingReferralName"
+            android:textSize="@dimen/dialog_title_text_size"
+            android:textColor="@color/custom_dark_gray"
+            android:fontFamily="sans-serif-medium"
+            android:layout_centerInParent="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:background="@color/customSuperLightBlueTheme"
+            android:id="@+id/title_underline"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:id="@+id/outgoing_referral_card_layout"
+        android:layout_width="@dimen/new_products_card_view_width"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/rb_margin_right">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtOutgoingContactName"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="@dimen/contacts_name_top_margin"
+                android:layout_marginBottom="@dimen/btn_floating_margin_bottom"
+                android:textColor="@color/custom_dark_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="@dimen/btn_text_size"
+                android:hint="@string/str_contact_name" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtOutgoingSalesperson"
+                android:background="@android:color/transparent"
+                android:layout_marginBottom="@dimen/btn_floating_margin_bottom"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@color/custom_dark_gray"
+                android:hint="@string/str_salesperson"
+                android:textSize="@dimen/btn_text_size" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/txtReferralNote"
+                android:inputType="textMultiLine"
+                android:background="@android:color/transparent"
+                android:lines="3"
+                android:textSize="@dimen/btn_text_size"
+                android:textColor="@color/custom_dark_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:hint="@string/str_referral_msg"
+                android:gravity="top"
+                android:layout_marginBottom="@dimen/contacts_name_top_margin"
+                android:clickable="false"
+                android:enabled="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/btn_save_top_margin">
+
+                <Button
+                    android:text="@string/str_recall"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/btn_login_height"
+                    android:textSize="@dimen/btn_get_started_text_size"
+                    android:background="@drawable/button_corners"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="0.4"
+                    android:textAllCaps="false"
+                    android:id="@+id/btnRecallOutgoingReferral"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
